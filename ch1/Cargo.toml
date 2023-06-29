@@ -5,4 +5,12 @@ edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
+[[bin]]
+name = "ch1m"
+path = "src/hirld.rs"
+
+[[bin]]
+name = "ch1c"
+path = "src/higo.rs"
+
 [dependencies]
