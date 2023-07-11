@@ -44,6 +44,7 @@ impl<T: Clone + Default> Vector<T> {
     }
 }
 
+// Проверка работы команд
 fn main() {
     let mut vector: Vector<i32> = Vector::new();
     vector.push(1);
